@@ -20,11 +20,11 @@ const zhNavbar = {
       items: [
         {
           label: 'ChatGPT国内版',
-          href: 'https://wwww.yuanyuanai.com',
+          href: 'https://www.yuanyuanai.com',
         },
         {
           label: 'ChatGPT增强版',
-          href: 'https://tnext.yuanyuanai.com/',
+          href: 'https://next.yuanyuanai.com/',
         },
       ],
     },
