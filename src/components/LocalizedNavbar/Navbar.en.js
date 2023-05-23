@@ -1,11 +1,12 @@
 const enNavbar = {
   hideOnScroll: true,
-  title: "ChatGPT SC",
+  title: "",
   logo: {
-    alt: "ChatGPT Shortcuts",
-    src: "img/logo.svg",
+    alt: "",
+    src: "img/logo.png",
   },
   items: [
+/*    
     {
       href: 'https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut',
       label: 'Find on Product Hunt',
@@ -23,6 +24,7 @@ const enNavbar = {
       position: "right",
       className: "header-discord-link",
     },
+ */
   ],
 };
 

@@ -39,13 +39,13 @@ import styles from "./styles.module.css";
 
 const TITLE = translate({
   message:
-    "ChatGPT Shortcut - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
+    "圆圆AI实验室————ChatGPT提示词指南",
 });
 const DESCRIPTION = translate({
-  message: "让生产力加倍的 ChatGPT 快捷指令",
+  message: "学会和ChatGPT对话，让生产力加倍的指令",
 });
 const SUBMIT_URL =
-  "https://github.com/rockbenben/ChatGPT-Shortcut/discussions/11";
+  "http://www.yuanyuandata.com";
 
 type UserState = {
   scrollTopPosition: number;
@@ -175,7 +175,7 @@ function ShowcaseFilters({ onToggleDescription }) {
       <div className={clsx("margin-bottom--sm", styles.filterCheckbox)}>
         <div>
           <Heading as="h2">
-            <Translate id="showcase.filters.title">Filters</Translate>
+            <Translate id="showcase.filters.title">过滤器</Translate>
           </Heading>
           <span>{siteCountPlural(filteredUsers.length)}</span>
         </div>
@@ -310,7 +310,7 @@ function SearchBar() {
       <input
         id="searchbar"
         placeholder={translate({
-          message: "Search for prompts...",
+          message: "查询魔法...",
           id: "showcase.searchBar.placeholder",
         })}
         value={value ?? undefined}
@@ -370,7 +370,7 @@ function ShowcaseCards({ isDescription }) {
               >
                 <Heading as="h2">
                   <Translate id="showcase.favoritesList.title">
-                    Our favorites
+                    收藏排行榜
                   </Translate>
                 </Heading>
                 <FavoriteIcon svgClass={styles.svgIconFavorite} />
@@ -392,7 +392,7 @@ function ShowcaseCards({ isDescription }) {
           <div className="container margin-top--lg">
             <Heading as="h2" className={styles.showcaseHeader}>
               <Translate id="showcase.usersList.allUsers">
-                All prompts
+                全部魔法
               </Translate>
             </Heading>
             <ul className={clsx("clean-list", styles.showcaseList)}>
