@@ -39,10 +39,10 @@ import styles from "./styles.module.css";
 
 const TITLE = translate({
   message:
-    "圆圆AI实验室————ChatGPT提示词指南",
+    "圆圆AI实验室———ChatGPT魔法指令",
 });
 const DESCRIPTION = translate({
-  message: "学会和ChatGPT对话，让生产力加倍的指令",
+  message: "学会和ChatGPT深度对话，产生不可以思议的魔法指令",
 });
 const SUBMIT_URL =
   "http://www.yuanyuandata.com";
@@ -139,7 +139,7 @@ function useFilteredUsers() {
 function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
-      <Heading as="h1">ChatGPT Shortcut</Heading>
+      <Heading as="h1">【圆圆AI】ChatGPT魔法提示</Heading>
       <p>{DESCRIPTION}</p>
       <Link className="button button--primary" to={SUBMIT_URL}>
         <Translate id="showcase.header.button">🙏 请添加你的提示词</Translate>

@@ -82,7 +82,7 @@ const config = {
       navbar: getNavbar(),
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} ChatGPT Shortcut`,
+        copyright: `Copyright © ${new Date().getFullYear()} ChatGPT 魔法合集 【圆圆AI】`,
       },
       prism: {
         theme: lightCodeTheme,
