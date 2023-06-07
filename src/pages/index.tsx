@@ -45,7 +45,7 @@ const DESCRIPTION = translate({
   message: "和ChatGPT深度对话，产生不可思议的魔法",
 });
 const SUBMIT_URL =
-  "http://mf.yuanyuandata.com";
+  "https://imgmf.yuanyuanai.com";
 
 type UserState = {
   scrollTopPosition: number;
