@@ -45,7 +45,7 @@ const DESCRIPTION = translate({
   message: "和ChatGPT深度对话，产生不可思议的魔法",
 });
 const SUBMIT_URL =
-  "http://www.yuanyuandata.com";
+  "http://mf.yuanyuandata.com";
 
 type UserState = {
   scrollTopPosition: number;
@@ -142,7 +142,7 @@ function ShowcaseHeader() {
       <Heading as="h1">圆圆AI-ChatGPT魔法提示</Heading>
       <p>{DESCRIPTION}</p>
       <Link className="button button--primary" to={SUBMIT_URL}>
-        <Translate id="showcase.header.button">🙏 请添加你的提示词</Translate>
+        <Translate id="showcase.header.button">更新：图片生成魔法提示词</Translate>
       </Link>
     </section>
   );
